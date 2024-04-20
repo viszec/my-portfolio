@@ -14,6 +14,7 @@ const Social = () => {
 
             <a href="https://www.linkedin.com/in/mavisxjma/" className="home__social-icon" target="_blank">
                 <i class="bx bxl-linkedin-square"></i>
+            </a>
         </div>
     )
 }
