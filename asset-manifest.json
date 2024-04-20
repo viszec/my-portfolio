@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.525aec9a.css",
-    "main.js": "/my-portfolio/static/js/main.805e9298.js",
+    "main.css": "/my-portfolio/static/css/main.40ebf578.css",
+    "main.js": "/my-portfolio/static/js/main.cb16a6d5.js",
     "static/js/511.318d7a88.chunk.js": "/my-portfolio/static/js/511.318d7a88.chunk.js",
     "static/media/profile.jpg": "/my-portfolio/static/media/profile.c16db79458377adc4c0e.jpg",
     "static/media/about.jpg": "/my-portfolio/static/media/about.c33136ee56824ae0219f.jpg",
-    "static/media/MavisMa-CV.pdf": "/my-portfolio/static/media/MavisMa-CV.6b3703c9fc7771ae1e07.pdf",
+    "static/media/MavisMa-CV.pdf": "/my-portfolio/static/media/MavisMa-CV.f938a144ce9a0782e39d.pdf",
     "static/media/logo.svg": "/my-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.525aec9a.css.map": "/my-portfolio/static/css/main.525aec9a.css.map",
-    "main.805e9298.js.map": "/my-portfolio/static/js/main.805e9298.js.map",
+    "main.40ebf578.css.map": "/my-portfolio/static/css/main.40ebf578.css.map",
+    "main.cb16a6d5.js.map": "/my-portfolio/static/js/main.cb16a6d5.js.map",
     "511.318d7a88.chunk.js.map": "/my-portfolio/static/js/511.318d7a88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.525aec9a.css",
-    "static/js/main.805e9298.js"
+    "static/css/main.40ebf578.css",
+    "static/js/main.cb16a6d5.js"
   ]
 }
