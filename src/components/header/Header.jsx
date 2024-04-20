@@ -9,7 +9,6 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
-
         <h2>MAViS</h2>
         </a>
 
