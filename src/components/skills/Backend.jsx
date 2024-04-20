@@ -2,6 +2,7 @@ import React from 'react'
 
 const Backend = () => {
   return (
+<<<<<<< HEAD
     <div className="skills__content">
     <h3 className="skills__title">Backend Developer</h3>
 
@@ -56,6 +57,9 @@ const Backend = () => {
                 </div>
             </div>
         </div>
+=======
+    <div>Backend</div>
+>>>>>>> 9139be7002d2716759c5832c6fc0d2f18ff9eb6f
   )
 }
 

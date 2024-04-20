@@ -16,6 +16,7 @@ const About = () => {
                 <div className="about__data">
                     <Info />
 
+<<<<<<< HEAD
                     <p className="about__description">I am Mavis, a software engineer with a Master’s degree in 
                     Information Technology from RMIT University, Melbourne. 
                     I specialize in front-end development and digital marketing, and have successfully led projects that enhanced product interfaces 
@@ -25,6 +26,10 @@ const About = () => {
                     success in dynamic environments.
 
 </p>
+=======
+                    <p className="about__description">Frontend developer, I create web pages with UI / UX user interface,
+                        I have years of experience and many clients are happy with the projects carried out.</p>
+>>>>>>> 9139be7002d2716759c5832c6fc0d2f18ff9eb6f
 
                     <a download="" href={CV} className="button button--flex">Download CV
                         <svg
