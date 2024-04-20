@@ -128,3 +128,36 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 200px) {
+    .qualification__data {
+        gap: 0.5rem;
+    }
+
+    .qualification__title {
+        font-size: var(--tiny-font-size);
+        font-weight: var(--font-medium);
+    }
+    
+    .qualification__subtitle {
+        display: inline-block;
+        font-size: var(--tiny-font-size);
+        margin-bottom: var(--mb-1);
+    }
+    
+    .qualification__description {
+        display: none;
+    }
+    
+    .qualification__calendar {
+        font-size: var(--tiny-font-size);
+    }
+    
+    .qualification__rounder {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background-color: var(--text-color);
+        border-radius: 50%;
+    }
+}
