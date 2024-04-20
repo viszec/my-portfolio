@@ -41,12 +41,10 @@
 
 .about__description {
     padding: 0 4rem 0 0;
-<<<<<<< HEAD
     font-size: var(--small-font-size);
-=======
->>>>>>> 9139be7002d2716759c5832c6fc0d2f18ff9eb6f
-    margin-bottom: var(--mb-2-5);
+
 }
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
