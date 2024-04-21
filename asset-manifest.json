@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.bcf4b94b.css",
-    "main.js": "/my-portfolio/static/js/main.fc8194df.js",
+    "main.css": "/my-portfolio/static/css/main.1bdef4df.css",
+    "main.js": "/my-portfolio/static/js/main.521743c2.js",
     "static/js/511.318d7a88.chunk.js": "/my-portfolio/static/js/511.318d7a88.chunk.js",
     "static/media/profile.jpg": "/my-portfolio/static/media/profile.c16db79458377adc4c0e.jpg",
     "static/media/about.jpg": "/my-portfolio/static/media/about.c33136ee56824ae0219f.jpg",
     "static/media/MavisMa-CV.pdf": "/my-portfolio/static/media/MavisMa-CV.f938a144ce9a0782e39d.pdf",
-    "static/media/testimonial3.png": "/my-portfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
-    "static/media/testimonial2.png": "/my-portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
-    "static/media/testimonial1.png": "/my-portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "static/media/stevejobs.jpeg": "/my-portfolio/static/media/stevejobs.b51918cce6b1c281b885.jpeg",
+    "static/media/billgates.jpeg": "/my-portfolio/static/media/billgates.b6e3658477c26a799ff4.jpeg",
+    "static/media/elonmusk.webp": "/my-portfolio/static/media/elonmusk.e730d63684b54de82881.webp",
     "index.html": "/my-portfolio/index.html",
-    "main.bcf4b94b.css.map": "/my-portfolio/static/css/main.bcf4b94b.css.map",
-    "main.fc8194df.js.map": "/my-portfolio/static/js/main.fc8194df.js.map",
+    "main.1bdef4df.css.map": "/my-portfolio/static/css/main.1bdef4df.css.map",
+    "main.521743c2.js.map": "/my-portfolio/static/js/main.521743c2.js.map",
     "511.318d7a88.chunk.js.map": "/my-portfolio/static/js/511.318d7a88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcf4b94b.css",
-    "static/js/main.fc8194df.js"
+    "static/css/main.1bdef4df.css",
+    "static/js/main.521743c2.js"
   ]
 }
