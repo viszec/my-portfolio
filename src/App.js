@@ -8,7 +8,8 @@ import Services from './components/services/Services.jsx';
 import Qualification from './components/qualification/Qualification.jsx';
 import Testimonials from './components/testimonials/Testimonials.jsx';
 import Contact from './components/contact/Contact.jsx';
-
+import Footer from './components/footer/Footer.jsx';
+import ScrollUp from './components/scrollup/ScrollUp.jsx';
 
 export const App = () => {
   return (
@@ -23,8 +24,10 @@ export const App = () => {
         <Qualification />
         <Testimonials />
         <Contact />
-
       </main>
+
+      <Footer />
+      <ScrollUp />
     </>
   )
 }

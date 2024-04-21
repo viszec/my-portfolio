@@ -16,15 +16,8 @@ const About = () => {
                 <div className="about__data">
                     <Info />
 
-                    <p className="about__description">I am Mavis, a software engineer with a Master’s degree in 
-                    Information Technology from RMIT University, Melbourne. 
-                    I specialize in front-end development and digital marketing, and have successfully led projects that enhanced product interfaces 
-                    and improved loading speeds. I am passionate about using technology to optimize business processes and customer satisfaction, 
-                    and excel at integrating user feedback to enhance product adaptability. With strong communication skills in both English and 
-                    Mandarin, I combine my technical expertise and innovative problem-solving abilities to contribute to business growth and 
-                    success in dynamic environments.
-
-</p>
+                    <p className="about__description">I am Mavis, a software engineer with a Master’s degree in Information Technology from RMIT University, Melbourne. I specialize in front-end development and digital marketing, and have successfully led projects that enhanced product interfaces and improved loading speeds. I am passionate about using technology to optimize business processes and customer satisfaction, and excel at integrating user feedback to enhance product adaptability. With strong communication skills in both English and Mandarin, I combine my technical expertise and innovative problem-solving abilities to contribute to business growth and success in dynamic environments.
+                    </p>
 
                     <a download="" href={CV} className="button button--flex">Download CV
                         <svg
