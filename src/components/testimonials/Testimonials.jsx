@@ -4,7 +4,7 @@ import { Data } from '../testimonials/Data.jsx';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from 'swiper/modules'; // 从这里导入所需模块
+import { Pagination } from 'swiper/modules'; //import swiper modules
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -13,8 +13,8 @@ import 'swiper/css/pagination';
 const Testimonials = () => {
   return (
     <section className="testimonial container section">
-      <h2 className="section__title">My Clients Say</h2>
-      <span className="section__subtitle">Testimonial</span>
+      <h2 className="section__title">Inspiring Quotes</h2>
+      <span className="section__subtitle">Words to Motivate and Encourage</span>
 
       <Swiper
         className="testimonial__container"

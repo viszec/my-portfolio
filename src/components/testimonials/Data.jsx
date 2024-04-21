@@ -1,27 +1,27 @@
-import Image1 from "../../assets/testimonial1.png";
-import Image2 from "../../assets/testimonial2.png";
-import Image3 from "../../assets/testimonial3.png";
+import Image1 from "../../assets/stevejobs.jpeg";
+import Image2 from "../../assets/billgates.jpeg";
+import Image3 from "../../assets/elonmusk.webp";
 
 export const Data = [
     {
       id: 1,
       image: Image1,
-      title: "Jhon Doe",
+      title: "Steve Jobs",
       description:
-        "A really good job, all aspects of the project were followed step by step and with good results.",
+        "Because the people who are crazy enough to think they can change the world are the ones who do.",
     },
     {
       id: 2,
       image: Image2,
-      title: "Harry Clinton",
+      title: "Bill Gates",
       description:
-        "A really good job, all aspects of the project were followed step by step and with good results.",
+        "Success is a lousy teacher. It seduces smart people into thinking they can't lose.",
     },
     {
       id: 3,
       image: Image3,
-      title: "Sara Cill",
+      title: "Elon Musk",
       description:
-        "A really good job, all aspects of the project were followed step by step and with good results.",
+        "Some people don't like change, but you need to embrace change if the alternative is disaster.",
     },
   ];
