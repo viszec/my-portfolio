@@ -6,6 +6,7 @@ import About from './components/about/About.jsx';
 import Skills from './components/skills/Skills.jsx';
 import Services from './components/services/Services.jsx';
 import Qualification from './components/qualification/Qualification.jsx';
+import Work from './components/work/Work.jsx';
 import Testimonials from './components/testimonials/Testimonials.jsx';
 import Contact from './components/contact/Contact.jsx';
 import Footer from './components/footer/Footer.jsx';
@@ -22,6 +23,7 @@ export const App = () => {
         <Skills />
         <Services />
         <Qualification />
+        <Work />
         <Testimonials />
         <Contact />
       </main>
