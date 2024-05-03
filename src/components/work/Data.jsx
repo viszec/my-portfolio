@@ -18,7 +18,7 @@ export const projectsData = [
         image: Work2,
         title: "Brighton and Brighton Beach Handbook",
         category: ["Design"],
-        url: "../../assets/BBELC.pdf"
+        url: "https://drive.google.com/file/d/1Qzd4kPOLg-27Q5PWvGHRFWastRNGlzAH/view?usp=sharing"
     },
     {
         id: 3,
