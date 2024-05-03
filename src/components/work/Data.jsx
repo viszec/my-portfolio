@@ -1,5 +1,5 @@
 import Work1 from "../../assets/work1.png";
-import Work2 from "../../assets/work2.jpg";
+import Work2 from "../../assets/work2.png";
 import Work3 from "../../assets/work3.png";
 import Work4 from "../../assets/work4.jpg";
 import Work5 from "../../assets/work5.png";
@@ -16,13 +16,14 @@ export const projectsData = [
     {
         id: 2,
         image: Work2,
-        title: "App movil",
-        category: ["App"],
+        title: "Brighton and Brighton Beach Handbook",
+        category: ["Design"],
+        url: "../../assets/BBELC.pdf"
     },
     {
         id: 3,
         image: Work3,
-        title: "Brand design",
+        title: "Astra Early Learning - Brand design",
         category: ["Design","Web"],
         url:"https://www.pm.astraearlylearning.com.au/",
     },

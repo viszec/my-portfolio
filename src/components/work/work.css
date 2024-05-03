@@ -57,7 +57,13 @@
     transition: 0.4s;
 }
 
+.work__button:hover {
+        color: purple;
+        transform: translateX(0.15rem);
+}
+
 .work__button:hover .work__button-icon {
+    color: purple;
     transform: translateX(0.25rem);
 }
 
