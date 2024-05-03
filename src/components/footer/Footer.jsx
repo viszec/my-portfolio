@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer__container container">
-                <h1 className="footer__title">Mavis</h1>
+                <h1 className="footer__title">MAViS</h1>
 
                 <ul className="footer__list">
                     <li>
@@ -13,11 +13,11 @@ const Footer = () => {
                     </li>
 
                     <li>
-                        <a href="#project" className="footer__link">Projects</a>
+                        <a href="#services" className="footer__link">Services</a>
                     </li>
 
                     <li>
-                        <a href="#testimonials" className="footer__link">Testimonials</a>
+                        <a href="#portfolio" className="footer__link">Portfolio</a>
                     </li>
                 </ul>
 
@@ -35,7 +35,7 @@ const Footer = () => {
                     </a>
                 </div>
 
-                <span className="footer__copy">&#169; MAVIS. All rights reserved</span>
+                <span className="footer__copy">&#169; MAViS 2024. All rights reserved.</span>
             </div>
         </footer>
     )

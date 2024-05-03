@@ -1,7 +1,7 @@
 import Work1 from "../../assets/work1.png";
 import Work2 from "../../assets/work2.png";
 import Work3 from "../../assets/work3.png";
-import Work4 from "../../assets/work4.jpg";
+import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/work5.png";
 
 
@@ -30,8 +30,9 @@ export const projectsData = [
     {
         id: 4,
         image: Work4,
-        title: "App movil",
-        category: ["App"],
+        title: "Logo Design",
+        category: ["Design"],
+        url: "https://drive.google.com/file/d/1jLR7BtkqjAyDGzEnu9hRrQ_spjmi8sdQ/view?usp=sharing"
     },
     {
         id: 5,
@@ -51,7 +52,6 @@ export const projectsNav = [
     },
     {
         name: 'App',
-
     },
     {
         name: 'Design'
