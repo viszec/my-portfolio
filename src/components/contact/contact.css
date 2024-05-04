@@ -55,6 +55,16 @@
     column-gap: 0.25rem;
 }
 
+.button-special {
+    transition: background-color 0.3s, color 0.3s;
+    padding: 15px 20px;
+}
+
+.button-special:hover {
+    background-color: purple; /* 鼠标悬停时的背景颜色为紫色 */
+    color: white; /* 鼠标悬停时的文字颜色为白色 */
+}
+
 .contact__button-icon {
     font-style: 1rem;
     transition: 0.3s;
@@ -105,6 +115,24 @@
 
 .contact__form-area textarea {
     resize: none;
+}
+
+.success-message {
+    color: green;
+    background-color: #e8f5e9; /* 浅绿色背景 */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    background-color: #ffebee; /* 浅红色背景 */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 /*=============== BREAKPOINTS ===============*/

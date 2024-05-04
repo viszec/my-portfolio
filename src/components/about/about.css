@@ -43,9 +43,17 @@
     padding: 0 4rem 0 0;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-2-5);
-
 }
 
+.buttons-container .button--flex {
+    transition: background-color 0.3s, color 0.3s;
+    padding: 15px 20px;
+}
+
+.buttons-container .button--flex:hover {
+    background-color: purple;
+    color: white;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
