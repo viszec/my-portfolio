@@ -64,7 +64,7 @@ const Data = () => {
 
             <div className="buttons-container">
                 <a href="#contact" className="button button--flex">
-                    Contact me
+                    Contact
                     <svg
                         class="button__icon"
                         xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +85,7 @@ const Data = () => {
                 </a>
 
                 <a download="" href={CV} className="button button--flex">
-                    Download CV
+                    Resume
                     <svg
                         class="button__icon"
                         xmlns="http://www.w3.org/2000/svg"
