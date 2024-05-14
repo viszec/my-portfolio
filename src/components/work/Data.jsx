@@ -11,6 +11,9 @@ export const projectsData = [
         image: Work1,
         title: "Brighton ELC",
         category: ["Web"],
+        //skills: ["Logo Design", "UX/UI", "SEO Performance", "Brand Identity", "Google Ads"],//
+        //project: ["Website UX/UI Design: I am designing a clean, modern, and user-friendly interface that enhances navigation and ensures optimal performance across all devices.",//
+        //"Domain Name Registration and Hosting: I am selecting a domain name that complements the Astra brand and hosting the site on a platform optimized for performance and security.","Logo and Brand Poster Design: I am creating a memorable logo and a detailed brand style guide to strengthen Astra Early Learning’s visual identity. Content Optimization and Google Ranking Optimization: I am developing SEO-friendly content and structuring the website for quick load speeds and mobile-friendliness to boost search rankings and improve user experience."],//
         url: "https://www.brightonelc.com.au/",
     },
     {
@@ -42,6 +45,7 @@ export const projectsData = [
         url:"https://oakparkchildrenscentre.com.au/",
     },
 ];
+
 
 export const projectsNav = [
     {
