@@ -77,11 +77,11 @@ const Qualification = () => {
                         <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Software Engineer</h3>
-                                <span className="qualification__subtitle">Astra Education Group</span>
+                                <span className="qualification__subtitle">Astra Education Group Pty Ltd</span>
                                 <h3 className="qualification__title">Melbourne, AU</h3>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
-                                    2020 - 2024
+                                    2019 - 2024
                                 </div>
                             </div>
 
