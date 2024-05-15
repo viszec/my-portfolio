@@ -26,7 +26,11 @@
 }
 
 .home__title {
-    font-size: var(--big-font-size);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    /*font-style: italic;*/
+    font-size: 4rem;
     margin-bottom: var(--mb-0-25);
 }
 
