@@ -61,9 +61,9 @@
 
   .work__descriptions {
     font-size: var(--smaller-font-size);  /* 小号字体 */
-    text-align: center; /* 文本居中 */
-    margin: 10px 20px;     /* 添加一些上下边距 */
-    line-height: 1.4;   /* 调整行高以提高可读性 */
+    text-align: left; /* 文本居中 */
+    margin: 5px 20px;     /* 添加一些上下边距 */
+    line-height: 1.2;   /* 调整行高以提高可读性 */
     word-wrap: break-word; /* 允许在单词内换行 */
     white-space: normal;   /* 允许空白处换行 */
   }

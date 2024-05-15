@@ -1,8 +1,20 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import "./qualification.css";
 
 const Qualification = () => {
     const [toggleState, setToggleState] = useState(1);
+    
+
+    useEffect(() => {
+        // 假设我们动态添加类来触发动画
+        const datas = document.querySelectorAll('.qualification__data');
+        datas.forEach((data, index) => {
+            setTimeout(() => {
+                data.style.opacity = 1; // 触发动画
+                data.style.transform = 'translateY(0)';
+            }, 100 * index); // 为每个元素设置不同的延迟以形成序列动画效果
+        });
+    }, [toggleState]); // 依赖于 toggleState 确保切换标签页时重置动画
 
     const toggleTab = (index) => {
         setToggleState(index);

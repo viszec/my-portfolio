@@ -12,7 +12,14 @@ export const projectsData = [
         title: "Brighton ELC",
         category: ["Web","App"],
         skills: ["Logo Design", "UX/UI Design", "Web Development","SEO Performance", "Brand Identity", "Google Ads"],
-        descriptions: "Redesign UX/UI for the website, featuring a clean, modern, and user-friendly interface to enhance navigation and ensure optimal performance across all devices. Additional module sections have been included to better highlight the advantages of Brighton ELC, a boutique centre, and the website is hosted on a platform optimised for performance and security. To strengthen the visual identity of the Brighton ELC website, graphic elements from its logo and primary colour blocks have been incorporated, ensuring consistency with the entire brand logo and detailed brand style guide. The page's SEO has been optimised with user-friendly content, powerful keywords, and a website structure designed for fast load speeds and mobile-friendliness, aiming to boost search rankings and improve user experience, keeping the entire website within the top ten positions on the first page of relevant searches.",
+        descriptions: /*"Redesign UX/UI for the website, featuring a clean, modern, and user-friendly interface to enhance navigation and ensure optimal performance across all devices. Additional module sections have been included to better highlight the advantages of Brighton ELC, a boutique centre, and the website is hosted on a platform optimised for performance and security. To strengthen the visual identity of the Brighton ELC website, graphic elements from its logo and primary colour blocks have been incorporated, ensuring consistency with the entire brand logo and detailed brand style guide. The page's SEO has been optimised with user-friendly content, powerful keywords, and a website structure designed for fast load speeds and mobile-friendliness, aiming to boost search rankings and improve user experience, keeping the entire website within the top ten positions on the first page of relevant searches.",*/
+        ["Objective: To elevate Brighton ELC's online presence through a website redesign.",
+        "Key Features:",
+        "UX/UI Redesign: Implement a clean, modern interface to enhance navigation and device compatibility.",
+        "Module Integration: Highlight Brighton ELC's unique benefits clearly.",
+        "Visual Identity: Use consistent branding elements from Brighton ELC’s logo and color scheme.",
+        "SEO Optimization: Utilize SEO-friendly content and keywords to improve search rankings and mobile responsiveness.",
+        "Outcome: A functional, visually appealing website that boosts visibility, user engagement, and satisfaction."],
         url: "https://www.brightonelc.com.au/",
     },
     {
@@ -21,7 +28,8 @@ export const projectsData = [
         title: "Brighton and Brighton Beach Handbook",
         category: ["Design"],
         skills: ["Graphic Design", "Content Marketing", "Copywriting", "Brand Identity"],
-        descriptions: "A handbook has been designed and created for Brighton and Brighton Beach ELC, featuring a clean, modern, and reader-friendly layout that incorporates graphic elements and primary colour blocks from the logo. To highlight Brighton and Brighton Beach ELC's advantages as a representative boutique childcare centre in the area, some ocean-themed elements have been added. This handbook aims to better communicate the brand's philosophy and service objectives to the local community and families.",
+        descriptions: 
+        "A handbook has been designed and created for Brighton and Brighton Beach ELC, featuring a clean, modern, and reader-friendly layout that incorporates graphic elements and primary colour blocks from the logo. To highlight Brighton and Brighton Beach ELC's advantages as a representative boutique childcare centre in the area, some ocean-themed elements have been added. This handbook aims to better communicate the brand's philosophy and service objectives to the local community and families.",      
         url: "https://drive.google.com/file/d/1Qzd4kPOLg-27Q5PWvGHRFWastRNGlzAH/view?usp=sharing"
     },
     {
