@@ -193,7 +193,7 @@ img {
 
 .fade-in-up {
   opacity: 0;
-  animation: fadeInUp 1.8s ease-out forwards;
+  animation: fadeInUp 2.5s ease-out forwards;
 }
 
 /*=============== BREAKPOINTS ===============*/
