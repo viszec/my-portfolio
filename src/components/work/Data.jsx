@@ -20,7 +20,7 @@ export const projectsData = [
         image: Work2,
         title: "Brighton and Brighton Beach ELC Handbook",
         category: ["Design"],
-        skills: ["Graphic Design", "Content Marketing", "Copywriting", "Branding"],
+        skills: ["Graphic Design", "Marketing", "Copywriting", "Branding"],
         descriptions: 
         "A handbook has been designed and created for Brighton and Brighton Beach ELC, featuring a clean, modern, and reader-friendly layout that incorporates graphic elements and primary colour blocks from the logo. To highlight Brighton and Brighton Beach ELC's advantages as a representative boutique childcare centre in the area, some ocean-themed elements have been added. This handbook aims to better communicate the brand's philosophy and service objectives to the local community and families.",      
         url: "https://drive.google.com/file/d/1Qzd4kPOLg-27Q5PWvGHRFWastRNGlzAH/view?usp=sharing"
