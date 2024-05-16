@@ -150,6 +150,8 @@
 
     .skill {
         font-size: var(--tiny-font-size);
+        margin-top: var(--mb-0-5);
+        margin-bottom: var(--mb-0-2);
     }
 }
 
