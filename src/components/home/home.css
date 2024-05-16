@@ -26,12 +26,18 @@
 }
 
 .home__title {
-    font-family: "Playfair Display", serif;
+    font-family: "Caveat", cursive;
     font-optical-sizing: auto;
     font-weight: 500;
     /*font-style: italic;*/
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
+    overflow: hidden;
+    white-space: nowrap;
+    /*border-right: 2px solid var(--title-color);*/
+    animation: typewriter 2s steps(1000) infinite, /* typing */
+    blink-caret 1s infinite; /* flashing */
+
 }
 
 .home__hand {
@@ -44,6 +50,7 @@
     position: relative;
     font-size: var(--h3-font-size);
     padding-left: 5.4rem;
+    font-family: "Caveat", cursive; 
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
 }
@@ -52,7 +59,7 @@
     content: '';
     position: absolute;
     width: 70px;
-    height: 1px;
+    height: 1.5px;
     background-color: var(--text-color);
     left: 0;
     top: 1rem;
@@ -135,6 +142,24 @@
     font-size: 1.25rem;
     color: var(--title-color);
 }
+
+@keyframes typewriter {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: var(--title-color);
+    }
+  }
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

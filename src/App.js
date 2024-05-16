@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import "./App.css";
 import Header from './components/header/Header.jsx';
 import Home from './components/home/Home.jsx';
@@ -12,26 +12,78 @@ import Contact from './components/contact/Contact.jsx';
 import Footer from './components/footer/Footer.jsx';
 import ScrollUp from './components/scrollup/ScrollUp.jsx';
 
-export const App = () => {
+const Section = ({ id, children }) => {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('fade-in-up');
+          }
+        });
+      },
+      {
+        threshold: 0.1
+      }
+    );
+
+    const currentSection = sectionRef.current;
+    if (currentSection) {
+      observer.observe(currentSection);
+    }
+
+    return () => {
+      if (currentSection) {
+        observer.unobserve(currentSection);
+      }
+    };
+  }, []);
+
+  return (
+    <div id={id} ref={sectionRef} className="section">
+      {children}
+    </div>
+  );
+};
+
+const App = () => {
   return (
     <>
       <Header />
 
       <main className='main'>
-        <Home />
-        <About />
-        <Skills />
-        <Services />
-        <Qualification />
-        <Work />
-        <Testimonials />
-        <Contact />
+        <Section id="home">
+          <Home />
+        </Section>
+        <Section id="about">
+          <About />
+        </Section>
+        <Section id="skills">
+          <Skills />
+        </Section>
+        <Section id="services">
+          <Services />
+        </Section>
+        <Section id="qualification">
+          <Qualification />
+        </Section>
+        <Section id="work">
+          <Work />
+        </Section>
+        <Section id="testimonials">
+          <Testimonials />
+        </Section>
+        <Section id="contact">
+          <Contact />
+        </Section>
       </main>
 
       <Footer />
       <ScrollUp />
     </>
-  )
+  );
 }
 
 export default App;

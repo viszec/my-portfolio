@@ -48,30 +48,30 @@
 
 .skill {
     display: inline-block;
-    background-color: #909090; /* 灰色背景 */
-    border-radius: 20px; /* 圆角 */
-    font-size: var(--smaller-font-size); /* 小号字体 */
+    background-color: #707070;
+    border-radius: 8px;
+    font-size: var(--smaller-font-size);
     font-weight: var(--font-medium);
     color: #fff;
-    padding: 3px 8px; /* 内边距 */
-    margin-right: 4px; /* 右边距，为每个技能间添加空间 */
+    padding: 3px 8px;
+    margin-right: 4px;
     margin-top: var(--mb-0-3);
-    margin-bottom: var(--mb-0-5); 
-  }
+    margin-bottom: var(--mb-0-5);
+}
 
-  .work__descriptions {
-    font-size: var(--smaller-font-size);  /* 小号字体 */
-    text-align: left; /* 文本居中 */
-    margin: 5px 20px;     /* 添加一些上下边距 */
-    line-height: 1.2;   /* 调整行高以提高可读性 */
-    word-wrap: break-word; /* 允许在单词内换行 */
-    white-space: normal;   /* 允许空白处换行 */
-  }
+.work__descriptions {
+    font-size: var(--smaller-font-size);
+    text-align: left;
+    margin: 15px 20px;
+    line-height: 1.2;
+    word-wrap: break-word;
+    white-space: normal;
+}
 
-  .highlight {
-    color: black;              /* 设置文字颜色为黑色 */
+.highlight {
+    color: black;
     font-weight: var(--font-medium);
-  }
+}
 
 .work__button {
     color: var(--text-color);
@@ -89,8 +89,8 @@
 }
 
 .work__button:hover {
-        color: purple;
-        transform: translateX(0.15rem);
+    color: purple;
+    transform: translateX(0.15rem);
 }
 
 .work__button:hover .work__button-icon {
@@ -161,5 +161,5 @@
 
     .work__descriptions {
         font-size: 0.5rem;
-      }
+    }
 }

@@ -20,7 +20,6 @@ const WorkItems = ({ item }) => {
       <img src={item.image} alt="" className='work__img' />
       <h3 className="work__title">{item.title}</h3>
       <div className="work_skills">
-        {/* 确保 item.skills 存在并且可以被遍历 */}
         {item.skills && item.skills.map((skill, index) => (
           <span key={index} className="skill">{skill}</span>
         ))}
@@ -31,8 +30,6 @@ const WorkItems = ({ item }) => {
           <p key={index} className="work__description" dangerouslySetInnerHTML={{ __html: highlightKeywords(desc) }}></p>
         )) : <p className="work__description" dangerouslySetInnerHTML={{ __html: highlightKeywords(item.descriptions) }}></p>}
       </div>
-
-      <span className="work_project">{/*item.project*/}</span>
       <a href={item.url} className="work__button" onClick={handleDemoClick}>
         Live Link <i className="bx bx-right-arrow-alt work__button-icon"></i>
       </a>
