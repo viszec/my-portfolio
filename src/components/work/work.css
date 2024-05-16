@@ -20,6 +20,7 @@
 }
 
 .work__container {
+    display: grid;
     grid-template-columns: repeat(2, max-content);
     gap: 3rem;
     justify-content: center;
@@ -36,8 +37,9 @@
 
 .work__img {
     /*width: 400px;*/
-    /*border-radius: 0rem;*/
+    border-radius: 1rem 1rem 0rem 0rem;
     margin-bottom: var(--mb-1);
+    width: 100%; /* 确保图片宽度充满容器 */
 }
 
 .work__title {
@@ -48,14 +50,14 @@
 
 .skill {
     display: inline-block;
-    background-color: #707070;
-    border-radius: 8px;
+    background-color: #efefef;
+    border-radius: 15px;
     font-size: var(--smaller-font-size);
     font-weight: var(--font-medium);
-    color: #fff;
-    padding: 3px 8px;
+    color: #3b3b3b;
+    padding: 3px 7px;
     margin-right: 4px;
-    margin-top: var(--mb-0-3);
+    margin-top: var(--mb-0-5);
     margin-bottom: var(--mb-0-5);
 }
 
@@ -75,12 +77,14 @@
 
 .work__button {
     color: var(--text-color);
-    font-size: var(--normal-font-size);
+    font-size: var(--small-font-size);
     font-weight: var(--font-medium);
-    display: inline-block;
+    display: flex;
     align-items: center;
     column-gap: 0.25rem;
-    margin-top: 15px;
+    margin: 15px 20px;
+    text-align: left; /* Ensure the button text aligns to the left */
+    justify-content: flex-start; /* Align the button to the left */
 }
 
 .work__button-icon {

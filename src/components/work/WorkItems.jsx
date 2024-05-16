@@ -9,7 +9,7 @@ const WorkItems = ({ item }) => {
   };
 
   const highlightKeywords = (text) => {
-    const keywords = ['Visual Identity','Module Integration','UX/UI', 'SEO Optimization', 'reader-friendly','graphic elements','Brand Logo', 'Designed', 'Redesign','Clean','Modern','user-friendly', 'interface', 'keywords','search rankings' ];  // 需要高亮的关键字列表
+    const keywords = ['Visual Identity','Module Integration','UX/UI', 'SEO', 'reader-friendly','graphic elements','Brand Logo', 'Designed', 'Redesigned','Clean','Modern','user-friendly', 'interface', 'keywords','search rankings' ];  // 需要高亮的关键字列表
     const regex = new RegExp(`(${keywords.join('|')})`, 'gi');
     return text.replace(regex, '<span class="highlight">$1</span>');
   };
@@ -24,7 +24,6 @@ const WorkItems = ({ item }) => {
           <span key={index} className="skill">{skill}</span>
         ))}
       </div>
-
       <div className="work__descriptions">
         {Array.isArray(item.descriptions) ? item.descriptions.map((desc, index) => (
           <p key={index} className="work__description" dangerouslySetInnerHTML={{ __html: highlightKeywords(desc) }}></p>
