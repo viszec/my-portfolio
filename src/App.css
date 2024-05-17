@@ -257,6 +257,11 @@ img {
   .section__subtitle {
     margin-bottom: var(--mb-3);
   }
+
+  .custom-cursor {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -274,5 +279,10 @@ img {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
+  }
+
+  .custom-cursor {
+    width: 20px;
+    height: 20px;
   }
 }
