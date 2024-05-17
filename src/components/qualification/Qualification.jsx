@@ -1,9 +1,9 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import "./qualification.css";
 
 const Qualification = () => {
     const [toggleState, setToggleState] = useState(1);
-    
+
 
     useEffect(() => {
         // 假设我们动态添加类来触发动画
@@ -28,21 +28,21 @@ const Qualification = () => {
             <div className="qualification__container container">
                 <div className="qualification__tabs">
                     <div className={toggleState === 1 ?
-                    "qualification__button qualification__active button--flex" : "qualification__button button--flex"}
-                    onClick={() => toggleTab(1)}>
-                        <i className="uil uil-graduation-cap qualification__icon"></i> Education
+                        "qualification__button qualification__active button--flex" : "qualification__button button--flex"}
+                        onClick={() => toggleTab(1)}>
+                        <i className="uil uil-graduation-cap qualification__icon"></i>Education
                     </div>
 
                     <div className={toggleState === 2 ?
-                    "qualification__button qualification__active button--flex" : "qualification__button button--flex"}
-                    onClick={() => toggleTab(2)}>
+                        "qualification__button qualification__active button--flex" : "qualification__button button--flex"}
+                        onClick={() => toggleTab(2)}>
                         <i className="uil uil-briefcase-alt qualification__icon"></i>Experience
                     </div>
                 </div>
 
                 <div className="qualification__sections">
                     <div className={toggleState === 1 ?
-                    "qualification__content qualification__content-active" : "qualification__content"}>
+                        "qualification__content qualification__content-active" : "qualification__content"}>
                         <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Master of Information Technology</h3>
@@ -52,10 +52,10 @@ const Qualification = () => {
                                     <i className="uil uil-calendar-alt"></i>
                                     2017 - 2019
                                 </div>
-                                <p className="qualification__description">Coursework - Database Concepts • IT Infrastructure and Security • 
-                                Programming Fundamentals • Usability Engineering • Advanced Programming • Data Mining • Software Engineering 
-                                Fundamentals • Cloud Computing • Algorithms and Analysis • Digital Innovation • Programming Internet of Things • 
-                    Software Engineering Project Management • Cloud Security • Secure Electronic Commerce • Postgraduate IT Project</p>
+                                <p className="qualification__description">Coursework - Database Concepts • IT Infrastructure and Security •
+                                    Programming Fundamentals • Usability Engineering • Advanced Programming • Data Mining • Software Engineering
+                                    Fundamentals • Cloud Computing • Algorithms and Analysis • Digital Innovation • Programming Internet of Things •
+                                    Software Engineering Project Management • Cloud Security • Secure Electronic Commerce • Postgraduate IT Project</p>
                             </div>
 
                             <div>
@@ -84,8 +84,8 @@ const Qualification = () => {
                         </div>
                     </div>
 
-                    <div className={toggleState === 2?
-                    "qualification__content qualification__content-active" : "qualification__content"}>
+                    <div className={toggleState === 2 ?
+                        "qualification__content qualification__content-active" : "qualification__content"}>
                         <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Software Engineer</h3>
