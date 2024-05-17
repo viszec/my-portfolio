@@ -49,11 +49,46 @@ const Section = ({ id, children }) => {
 };
 
 const App = () => {
+  const cursorRef = useRef(null);
+
+  useEffect(() => {
+    const handleMouseMove = (event) => {
+      if (cursorRef.current) {
+        cursorRef.current.style.left = `${event.clientX}px`;
+        cursorRef.current.style.top = `${event.clientY}px`;
+      }
+
+      const elements = document.querySelectorAll('.magnify');
+      elements.forEach(element => {
+        const rect = element.getBoundingClientRect();
+        const cursorX = event.clientX;
+        const cursorY = event.clientY;
+
+        if (
+          cursorX > rect.left && cursorX < rect.right &&
+          cursorY > rect.top && cursorY < rect.bottom
+        ) {
+          element.classList.add('magnified');
+        } else {
+          element.classList.remove('magnified');
+        }
+      });
+    };
+
+    window.addEventListener('mousemove', handleMouseMove);
+
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+    };
+  }, []);
+
+
   return (
     <>
       <Header />
 
       <main className='main'>
+      <div ref={cursorRef} className="custom-cursor"></div> {/* Custom cursor element */}
         <Section id="home">
           <Home />
         </Section>

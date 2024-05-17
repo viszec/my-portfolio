@@ -28,20 +28,12 @@
 .home__title {
     font-optical-sizing: auto;
     font-weight: 500;
-    /*font-style: italic;*/
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
     overflow: hidden;
     white-space: nowrap;
-    /*border-right: 2px solid var(--title-color);*/
-    animation: typewriter 1.5s steps(50) infinite, /* typing */
-    blink-caret 2s infinite; /* flashing */
-}
-
-.home__hand {
-    width: 38px;
-    height: 38px;
-    margin-left: 0.4rem;
+    animation: typewriter 1.5s steps(50) infinite,/* typing */
+    blink-caret 2s infinite;/* flashing */
 }
 
 .home__subtitle {
@@ -148,21 +140,25 @@
 
 @keyframes typewriter {
     0% {
-      width: 0;
+        width: 0;
     }
+
     100% {
-      width: 100%;
+        width: 100%;
     }
-  }
-  
-  @keyframes blink-caret {
-    0%, 100% {
-      border-color: transparent;
+}
+
+@keyframes blink-caret {
+
+    0%,
+    100% {
+        border-color: transparent;
     }
+
     50% {
-      border-color: var(--title-color);
+        border-color: var(--title-color);
     }
-  }
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
