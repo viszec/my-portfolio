@@ -72,7 +72,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="contact__content">
-                    <h3 className="contact__subtitle">Fill in the form below or email us directly at imavisma@gmail.com. You're in good hands.</h3>
+                    <h3 className="contact__subtitle">Fill in the form below or email us directly at imavisma@gmail.com You're in good hands.</h3>
                     <form ref={formRef} onSubmit={sendEmail} className="contact__form">
                         <div className="contact__form-div">
                             <label className="contact__form-tag">Full name *</label>

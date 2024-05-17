@@ -225,12 +225,19 @@ img {
     padding: 2rem 0 4rem;
   }
 
+  .section__title {
+    font-size: var(--big-font-size);
+  }
+
   .section__subtitle {
     margin-bottom: var(--mb-3);
   }
 }
 
 @media screen and (max-width: 576px) {
+  .section__title {
+    font-size: var(--h1-font-size);
+  }
 }
 
 /* For small devices */
