@@ -63,11 +63,11 @@
 .services__modal-content {
     width: 580px;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(101, 101, 101, 0.97);
     padding: 4.5rem 2.5rem 2.5rem;
     border-radius: 0.25rem;
     color: var(--container-color);
-}
+}    
 
 .services__modal-close {
     position: absolute;

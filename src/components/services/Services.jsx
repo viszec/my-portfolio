@@ -36,27 +36,27 @@ const Services = () => {
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">User Interface Development: I specialise in creating intuitive and visually appealing user interfaces that ensure a seamless and engaging user experience. My designs are not only aesthetically pleasing but also functional and user-friendly.</p>
+                                    <p className="services__modal-info">User Interface Development: I create intuitive and visually appealing user interfaces for a seamless and engaging user experience.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Web Page Development: I am proficient in building robust, responsive, and efficient web pages. I employ the latest technologies and best practices to develop websites that perform well across all devices and platforms, ensuring a consistent user experience.</p>
+                                    <p className="services__modal-info">Web Page Development: I build robust, responsive, and efficient web pages using the latest technologies and best practices, ensuring consistency across all devices and platforms.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">UX Element Interactions: I design and implement interactive UX elements that enhance the overall usability of a website. By focusing on user-centric design, I create interactions that are intuitive and enhance the user's journey on the site.</p>
+                                    <p className="services__modal-info">UX Element Interactions: I design and implement interactive UX elements that enhance overall usability and provide a user-centric experience.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Brand Positioning: I help position your company’s brand effectively in the digital space. By integrating branding elements seamlessly into the web design, I ensure that your brand message is clear and impactful, helping you stand out in a competitive market.</p>
+                                    <p className="services__modal-info">Brand Positioning: I effectively position your brand in the digital space by integrating branding elements into web design, ensuring a clear and impactful brand message.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Design and Mockups: I create detailed design mockups for products and services. These mockups provide a clear vision of the final product, allowing for iterative feedback and refinements before the development phase, ensuring that the end product meets all client expectations.</p>
+                                    <p className="services__modal-info">Design and Mockups: I create detailed design mockups, providing a clear vision of the final product and allowing for iterative feedback and refinements before development.</p>
                                 </li>
                             </ul>
                         </div>
