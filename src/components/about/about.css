@@ -22,6 +22,11 @@
     border-radius: 0.25rem;
     text-align: center;
     padding: 1rem 1.25rem;
+    transition: transform 2.5s cubic-bezier(0.5, 1.8, 0.55, 1);
+}
+
+.about__box:hover {
+    transform: rotateY(360deg); /* Rotate horizontally around the center */ 
 }
 
 .about__icon {

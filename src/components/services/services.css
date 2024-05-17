@@ -10,6 +10,7 @@
     border-radius: 0.25rem;
     background-color: var(--container-color);
     padding: 6rem 0 2rem 2.5rem;
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
 }
 
 .services__icon {
@@ -17,6 +18,7 @@
     font-size: 2rem;
     color: var(--title-color);
     margin-bottom: var(--mb-1);
+    transition: color 0.3s; /* Add transition for smooth effect */
 }
 
 .services__title {
@@ -24,6 +26,7 @@
     margin-bottom: var(--mb-1);
     font-weight: var(--font-medium);
     text-transform: uppercase;
+    transition: color 0.3s; /* Add transition for smooth effect */
 }
 
 .services__button {
@@ -33,6 +36,7 @@
     align-items: center;
     column-gap: 0.25rem;
     cursor: pointer;
+    transition: color 0.3s; /* Add transition for smooth effect */
 }
 
 .services__button-icon {
@@ -42,6 +46,17 @@
 
 .services__button:hover .services__button-icon {
     transform: translateX(0.25rem);
+}
+
+.services__content:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: var(--body-color);
+}
+
+.services__content:hover .services__icon,
+.services__content:hover .services__title,
+.services__content:hover .services__button {
+    color: var(--body-color); /* Change color of child elements on hover */
 }
 
 .services__modal {
