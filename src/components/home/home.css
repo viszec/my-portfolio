@@ -66,8 +66,9 @@
 }
 
 .home__description {
-    max-width: 400px;
+    max-width: 380px;
     margin-bottom: var(--mb-3);
+    text-transform: uppercase;
 }
 
 .home__img {
@@ -78,9 +79,9 @@
     box-shadow: inset 0 0 0 9px rgba(255, 255, 255, 0.3);
     order: 1;
     justify-self: center;
-    width: 300px;
-    height: 300px;
-    animation: profile__animate 8s ease-in-out infinite 1s;
+    width: 350px;
+    height: 350px;
+    animation: profile__animate 6s ease-in-out infinite 1s;
 }
 
 .buttons-container {
@@ -169,11 +170,6 @@
         column-gap: 1.25rem;
     }
 
-    .home__hand {
-        width: 26px;
-        height: 26px;
-    }
-
     .home__subtitle {
         padding-left: 3.75rem;
         margin-bottom: var(--mb-1);
@@ -190,8 +186,8 @@
     }
 
     .home__img {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         box-shadow: inset 0 0 0 8px rgba(255, 255, 255, 0.3);
     }
 
@@ -218,8 +214,8 @@
 
     .home__img {
         box-shadow: inset 0 0 0 6px rgba(255, 255, 255, 0.3);
-        width: 200px;
-        height: 200px;
+        width: 260px;
+        height: 260px;
     }
 
     .home__scroll {
@@ -230,12 +226,7 @@
 /* For small devices */
 @media screen and (max-width: 350px) {
     .home__img {
-        width: 180px;
-        height: 180px;
-    }
-
-    .home__hand {
-        width: 22px;
-        height: 22px;
+        width: 260px;
+        height: 260px;
     }
 }

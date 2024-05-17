@@ -132,6 +132,7 @@ img {
 .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
+  text-transform: uppercase;
 }
 
 .section__subtitle {
@@ -163,7 +164,7 @@ img {
   background-color: var(--title-color);
   color: var(--container-color);
   padding: 1.25rem 2rem;
-  border-radius: 1rem;
+  border-radius: 0.25rem;
   font-weight: var(--font-medium);
 }
 

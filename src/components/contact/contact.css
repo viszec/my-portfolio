@@ -7,9 +7,20 @@
 
 .contact__title {
     text-align: center;
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1-5);
+    text-transform: uppercase;
+}
+
+.contact__subtitle {
+    width: 350px;
+    text-align: right;
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1-5);
+    text-transform: uppercase;
+    word-wrap: break-word;
 }
 
 .contact__info {
@@ -22,7 +33,7 @@
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0);
     padding: 1rem;
-    border-radius: 0.75rem;
+    border-radius: 0.25rem;
     text-align: center;
 }
 
@@ -34,7 +45,7 @@
 
 .contact__card-title,
 .contact__card-data {
-    font-size: var(--smaill-font-size);
+    font-size: var(--normal-font-size);
 }
 
 .contact__card-title {
@@ -94,16 +105,22 @@
     background: none;
     color: var(--text-color);
     outline: none;
-    border-radius: 0.75rem;
+    border-radius: 0.25rem;
     padding: 1.5rem;
     z-index: 1;
+}
+
+.contact__form-input::placeholder {
+    color: rgb(173, 173, 173); /* Change to your desired color */
+    opacity: 1; /* Ensure the opacity is set to 1 for the color to take full effect */
 }
 
 .contact__form-tag {
     position: absolute;
     top: -0.75rem;
     left: 1.25rem;
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
+    color: var(--title-color);
     padding: 0.25rem;
     background-color: var(--body-color);
     z-index: 10;
@@ -118,7 +135,7 @@
 }
 
 .success-message {
-    color: green;
+    color: purple;
     background-color: #e8f5e9; /* 浅绿色背景 */
     padding: 10px;
     border-radius: 5px;
@@ -127,7 +144,7 @@
 }
 
 .error-message {
-    color: red;
+    color: rgb(255, 107, 107);
     background-color: #ffebee; /* 浅红色背景 */
     padding: 10px;
     border-radius: 5px;

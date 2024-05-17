@@ -31,32 +31,32 @@ const Services = () => {
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
                             <h3 className="services__modal-title">Web Developer</h3>
-                            <p className="services__modal-description">Service with more than 3 years of experience.Providing quality work to clients and companies.</p>
+                            <p className="services__modal-description">With over four years of experience in web development, I am dedicated to delivering high-quality work to both clients and companies. My expertise spans a wide range of services aimed at enhancing user experience and strengthening brand identity.</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I develop the user interface.</p>
+                                    <p className="services__modal-info">User Interface Development: I specialise in creating intuitive and visually appealing user interfaces that ensure a seamless and engaging user experience. My designs are not only aesthetically pleasing but also functional and user-friendly.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Web page development.</p>
+                                    <p className="services__modal-info">Web Page Development: I am proficient in building robust, responsive, and efficient web pages. I employ the latest technologies and best practices to develop websites that perform well across all devices and platforms, ensuring a consistent user experience.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I create UX element interactions.</p>
+                                    <p className="services__modal-info">UX Element Interactions: I design and implement interactive UX elements that enhance the overall usability of a website. By focusing on user-centric design, I create interactions that are intuitive and enhance the user's journey on the site.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I position your company brand.</p>
+                                    <p className="services__modal-info">Brand Positioning: I help position your company’s brand effectively in the digital space. By integrating branding elements seamlessly into the web design, I ensure that your brand message is clear and impactful, helping you stand out in a competitive market.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Design and mockups of products for companies.</p>
+                                    <p className="services__modal-info">Design and Mockups: I create detailed design mockups for products and services. These mockups provide a clear vision of the final product, allowing for iterative feedback and refinements before the development phase, ensuring that the end product meets all client expectations.</p>
                                 </li>
                             </ul>
                         </div>
@@ -78,7 +78,7 @@ const Services = () => {
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
                             <h3 className="services__modal-title">Graphic Designer</h3>
-                            <p className="services__modal-description">Service with more than 3 years of experience.Providing quality work to clients and companies.</p>
+                            <p className="services__modal-description">Service with more than 4 years of experience.Providing quality work to clients and companies.</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
@@ -120,7 +120,7 @@ const Services = () => {
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
                             <h3 className="services__modal-title">Digital Marketing</h3>
-                            <p className="services__modal-description">Service with more than 3 years of experience.Providing quality work to clients and companies.
+                            <p className="services__modal-description">Service with more than 4 years of experience.Providing quality work to clients and companies.
                             </p>
 
                             <ul className="services__modal-services grid">

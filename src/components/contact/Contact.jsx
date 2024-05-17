@@ -67,24 +67,24 @@ const Contact = () => {
                             <i className="bx bx-message-square-dots contact__card-icon"></i>
                             <h3 className="contact__card-title">Contact</h3>
                             <span className="contact__card-data">0424209565</span>
-                            <a href="https://m.me/crypticalcoder" className="contact__button">Contact me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://m.me/crypticalcoder" className="contact__button">Contact<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
                     </div>
                 </div>
                 <div className="contact__content">
-                    <h3 className="contact__title">Write me your project</h3>
+                    <h3 className="contact__subtitle">Fill in the form below or email us directly at imavisma@gmail.com. You're in good hands.</h3>
                     <form ref={formRef} onSubmit={sendEmail} className="contact__form">
                         <div className="contact__form-div">
-                            <label className="contact__form-tag">Name</label>
-                            <input type="text" name="name" className="contact__form-input" required placeholder="Your Name" />
+                            <label className="contact__form-tag">Full name *</label>
+                            <input type="text" name="name" className="contact__form-input" required placeholder="" />
                         </div>
                         <div className="contact__form-div">
-                            <label className="contact__form-tag">Email</label>
-                            <input type="email" name="email" className="contact__form-input" required placeholder="Your Email" />
+                            <label className="contact__form-tag">Email *</label>
+                            <input type="email" name="email" className="contact__form-input" required placeholder="" />
                         </div>
                         <div className="contact__form-div contact__form-area">
-                            <label className="contact__form-tag">Project</label>
-                            <textarea name="message" cols="30" rows="10" className="contact__form-input" required placeholder="Write your project"></textarea>
+                            <label className="contact__form-tag">Message</label>
+                            <textarea name="message" cols="30" rows="10" className="contact__form-input" required placeholder="Let's talk about creative ideas for your project!"></textarea>
                         </div>
                         <button type="submit" className="button button--flex button-special">
                             Send Message

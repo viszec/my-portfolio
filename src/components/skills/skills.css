@@ -1,6 +1,6 @@
 .skills__container {
     display: grid;
-    grid-template-columns: repeat(2, 350px);
+    grid-template-columns: repeat(2, 300px);
     column-gap: 3rem;
     justify-content: center;
 }
@@ -9,7 +9,7 @@
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 2rem 4rem;
-    border-radius: 1.25rem;
+    border-radius: 0.25rem;
 }
 
 .skills__title {
@@ -17,39 +17,36 @@
     font-weight: var(--font-medium);
     text-align: center;
     margin-bottom: var(--mb-1-5);
-
-    background-color: #f3f3f3;
-    border-radius: 30px;
-
-    color:var(--title-color);
+    background-color: rgba(0, 0, 0, 0.03);
+    border-radius: 0.2rem;
+    color: var(--title-color);
     padding: 10px 10px;
-
 }
 
 .skills__box {
     display: flex;
     justify-content: center;
-    column-gap: 2.5rem;
+    column-gap: 2rem;
 }
 
 .skills__group {
     display: grid;
     align-items: center;
-    row-gap: 2rem;
-    grid-template-rows: repeat(4, auto); 
+    row-gap: 1.5rem;
+    grid-template-rows: repeat(4, auto);
 }
 
 .skills__data {
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-    row-gap: 0.05rem; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.05rem;
 }
 
 .skills .bx {
-    font-size: 3.5rem;
-    color: #5b5a5a;
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .skills__name {
@@ -57,12 +54,12 @@
     font-size: var(--smaller-font-size);
     font-weight: var(--font-medium);
     line-height: 18px;
-    text-align: center; 
+    text-align: center;
 }
 
 .skills__level {
     font-size: var(--tiny-font-size);
-    text-align: center; 
+    text-align: center;
     padding: 12px;
 }
 
@@ -70,15 +67,15 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
     .skills__container {
-    grid-template-columns: max-content;
-    row-gap: 2rem;
+        grid-template-columns: max-content;
+        row-gap: 2rem;
     }
 }
 
 /* For medium devices */
 @media screen and (max-width: 576px) {
     .skills__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr, 250px;
     }
 
     .skills__content {
