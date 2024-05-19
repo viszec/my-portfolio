@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.42e95ce9.css",
-    "main.js": "/my-portfolio/static/js/main.3a2f1504.js",
+    "main.css": "/my-portfolio/static/css/main.3ca6e518.css",
+    "main.js": "/my-portfolio/static/js/main.03fa2a9f.js",
     "static/js/511.318d7a88.chunk.js": "/my-portfolio/static/js/511.318d7a88.chunk.js",
     "static/media/profile.jpg": "/my-portfolio/static/media/profile.111935d2edc3be2737be.jpg",
     "static/media/work2.png": "/my-portfolio/static/media/work2.3c9f5c6dc9e17c0b662b.png",
@@ -11,16 +11,16 @@
     "static/media/about.jpg": "/my-portfolio/static/media/about.c33136ee56824ae0219f.jpg",
     "static/media/stevejobs.jpeg": "/my-portfolio/static/media/stevejobs.b51918cce6b1c281b885.jpeg",
     "static/media/work4.png": "/my-portfolio/static/media/work4.a341ad0a53e12f568e44.png",
-    "static/media/MavisMa-CV.pdf": "/my-portfolio/static/media/MavisMa-CV.fe3a9d47dcc5835a8e3e.pdf",
+    "static/media/Mavis Ma-CV.pdf": "/my-portfolio/static/media/Mavis Ma-CV.8552b51969039ef3f228.pdf",
     "static/media/billgates.jpeg": "/my-portfolio/static/media/billgates.b6e3658477c26a799ff4.jpeg",
     "static/media/elonmusk.webp": "/my-portfolio/static/media/elonmusk.e730d63684b54de82881.webp",
     "index.html": "/my-portfolio/index.html",
-    "main.42e95ce9.css.map": "/my-portfolio/static/css/main.42e95ce9.css.map",
-    "main.3a2f1504.js.map": "/my-portfolio/static/js/main.3a2f1504.js.map",
+    "main.3ca6e518.css.map": "/my-portfolio/static/css/main.3ca6e518.css.map",
+    "main.03fa2a9f.js.map": "/my-portfolio/static/js/main.03fa2a9f.js.map",
     "511.318d7a88.chunk.js.map": "/my-portfolio/static/js/511.318d7a88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42e95ce9.css",
-    "static/js/main.3a2f1504.js"
+    "static/css/main.3ca6e518.css",
+    "static/js/main.03fa2a9f.js"
   ]
 }
