@@ -26,26 +26,6 @@ const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bxl-python"></i>
-
-            <div>
-              <h3 className="skills__name">Python</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bxl-spring-boot"></i>
-
-            <div>
-              <h3 className="skills__name">Spring-boot</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-        </div>
-
-        <div className="skills__group">
-          <div className="skills__data">
             <i class="bx bxl-java"></i>
 
             <div>
@@ -63,6 +43,10 @@ const Backend = () => {
             </div>
           </div>
 
+
+        </div>
+
+        <div className="skills__group">
           <div className="skills__data">
             <i class="bx bxl-google-cloud"></i>
 

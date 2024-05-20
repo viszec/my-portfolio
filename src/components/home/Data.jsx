@@ -1,12 +1,12 @@
 import React from "react";
-import CV from "../../assets/MavisMa-CV.pdf";
+import CV from "../../assets/Mavis Ma_CV_software engineer.pdf";
 
 const Data = () => {
     return (
         <div className="home__data">
             <h1 className="home__title">
-            Wominjeka!
-              
+                Wominjeka!
+
             </h1>
             <h3 className="home__subtitle">Mavis Ma</h3>
             <p className="home__description">
