@@ -22,15 +22,15 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer__social">
-                    <a href="https://www.instagram.com/viis.ma/" className="footer__social-link" target="_blank">
+                    <a href="https://www.instagram.com/viis.ma/" className="footer__social-link" target="_blank" rel="noreferrer noopener">
                         <i class="bx bxl-instagram-alt"></i>
                     </a>
 
-                    <a href="https://facebook.com/mavisma.one/" className="footer__social-link" target="_blank">
+                    <a href="https://facebook.com/mavisma.one/" className="footer__social-link" target="_blank" rel="noreferrer noopener">
                         <i class="bx bxl-facebook-circle"></i>
                     </a>
 
-                    <a href="https://www.linkedin.com/in/mavisxjma/" className="footer__social-link" target="_blank">
+                    <a href="https://www.linkedin.com/in/mavisxjma/" className="footer__social-link" target="_blank" rel="noreferrer noopener">
                         <i class="bx bxl-linkedin-square"></i>
                     </a>
                 </div>

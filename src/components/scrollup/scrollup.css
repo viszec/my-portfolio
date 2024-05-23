@@ -20,7 +20,7 @@
 }
 
 /* Show Scroll */
-.show-scroll {
+.scrollup.show-scroll {
     bottom: 3rem;
 }
 
