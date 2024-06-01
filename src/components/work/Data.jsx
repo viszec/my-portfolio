@@ -3,6 +3,7 @@ import Work2 from "../../assets/work2.png";
 import Work3 from "../../assets/work3.png";
 import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/work5.png";
+import Palettepicker from "../../assets/palettepicker.gif";
 
 
 export const projectsData = [
@@ -17,6 +18,15 @@ export const projectsData = [
     },
     {
         id: 2,
+        image: Palettepicker,
+        title: "Palette Picker",
+        category: ["App","Web"],
+        skills: ["Web Dev","JavaScript","HTML","CSS"],
+        descriptions: "Palette Picker - A web widget that specialises in generating different styles and types of palettes. It supports importing palette images for color recognition and allows exporting files in four different formats: PNG, SVG, CSS, and JSON. The widget is crafted using JavaScript, HTML, and CSS, ensuring fixed positioning and a sticky design for an optimal user experience.",
+        url:"https://viszec.github.io/palettepicker/",
+    },
+    {
+        id: 3,
         image: Work2,
         title: "Brighton and Brighton Beach ELC Handbook",
         category: ["Design"],
@@ -26,7 +36,7 @@ export const projectsData = [
         url: "https://drive.google.com/file/d/1Qzd4kPOLg-27Q5PWvGHRFWastRNGlzAH/view?usp=sharing"
     },
     {
-        id: 3,
+        id: 4,
         image: Work3,
         title: "Astra Early Learning - Brand design",
         category: ["Design","Web"],
@@ -35,7 +45,7 @@ export const projectsData = [
         url:"https://www.pm.astraearlylearning.com.au/",
     },
     {
-        id: 4,
+        id: 5,
         image: Work4,
         title: "Logo Design",
         category: ["Design"],
@@ -44,7 +54,7 @@ export const projectsData = [
         url: "https://drive.google.com/file/d/1jLR7BtkqjAyDGzEnu9hRrQ_spjmi8sdQ/view?usp=sharing"
     },
     {
-        id: 5,
+        id: 6,
         image: Work5,
         title: "Oak Park Children's Centre",
         category: ["Web"],

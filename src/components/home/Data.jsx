@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/Mavis Ma_CV_software engineer.pdf";
+import CV from "../../assets/Mavis Ma_CV.pdf";
 
 const Data = () => {
     return (
