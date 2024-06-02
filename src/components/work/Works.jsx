@@ -37,7 +37,7 @@ const Works = () => {
                     </span>
                 ))}
             </div>
-            <div className="work__container container grid">
+            <div className="work__container">
                 {projects.map((item) => (
                     <WorkItems item={item} key={item.id} />
                 ))}
