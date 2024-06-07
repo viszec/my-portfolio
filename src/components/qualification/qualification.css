@@ -1,5 +1,5 @@
 .qualification__container {
-    max-width: 768px;
+    max-width: 820px;
 }
 
 .qualification__tabs {
@@ -51,24 +51,25 @@
 }
 
 .qualification__title {
-    font-size: var(--small-font-size);
+    font-size: var(--smaller-font-size);
     font-weight: var(--font-medium);
 }
 
 .qualification__subtitle {
     display: inline-block;
-    font-size: var(--small-font-size);
+    font-size: var(--smaller-font-size);
     margin-bottom: var(--mb-1);
 }
 
 .qualification__description {
     display: inline-block;
     font-size: var(--tiny-font-size);
+    font-weight: var(--font-light);
     margin-bottom: var(--mb-1);
 }
 
 .qualification__calendar {
-    font-size: var(--small-font-size);
+    font-size: var(--tiny-font-size);
 }
 
 .qualification__rounder {

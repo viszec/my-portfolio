@@ -6,15 +6,14 @@ const Qualification = () => {
 
 
     useEffect(() => {
-        // 假设我们动态添加类来触发动画
         const datas = document.querySelectorAll('.qualification__data');
         datas.forEach((data, index) => {
             setTimeout(() => {
-                data.style.opacity = 1; // 触发动画
+                data.style.opacity = 1;
                 data.style.transform = 'translateY(0)';
-            }, 100 * index); // 为每个元素设置不同的延迟以形成序列动画效果
+            }, 100 * index);
         });
-    }, [toggleState]); // 依赖于 toggleState 确保切换标签页时重置动画
+    }, [toggleState]);
 
     const toggleTab = (index) => {
         setToggleState(index);
@@ -50,7 +49,7 @@ const Qualification = () => {
                                 <h3 className="qualification__title">Melbourne, AU</h3>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
-                                    2017 - 2019
+                                    2018 - 2019
                                 </div>
                                 <p className="qualification__description">Coursework - Database Concepts • IT Infrastructure and Security •
                                     Programming Fundamentals • Usability Engineering • Advanced Programming • Data Mining • Software Engineering

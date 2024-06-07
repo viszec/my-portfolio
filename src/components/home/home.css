@@ -1,5 +1,6 @@
 .home__container {
     row-gap: 7rem;
+    padding: 1rem 1rem;
 }
 
 .home__content {
@@ -60,9 +61,9 @@
 }
 
 .home__description {
-    max-width: 380px;
+    max-width: 360px;
     margin-bottom: var(--mb-3);
-    text-transform: uppercase;
+    font-size: var(--small-font-size);
 }
 
 .home__img {
