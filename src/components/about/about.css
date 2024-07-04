@@ -1,11 +1,11 @@
 .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    column-gap: 4rem;
+    column-gap: 3rem;
 }
 
 .about__img {
-    width: 850px;
+    width: 550px;
     border-radius: 0.25rem;
     justify-self: center;
 }
@@ -98,8 +98,14 @@
 
 /* For medium devices */
 @media screen and (max-width: 576px) {
+
     .about__info {
         grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+    }
+
+    .about__subtitle {
+        font-size: 11px;
     }
 
     .about__description {
