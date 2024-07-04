@@ -44,7 +44,7 @@
     /* Make sure it fills the grid column */
     height: auto;
     margin-bottom: 1rem;
-    /*transition: transform 0.2s ease-in-out;*/
+    transition: transform 0.4s ease-in-out;
 }
 
 .work__card:hover {
@@ -63,7 +63,7 @@
     /* Maintain aspect ratio */
     object-fit: cover;
     /* Ensure the image covers the area */
-    transition: opacity 0.3s ease-in-out; /* 添加平滑过渡效果 */
+    transition: opacity 0.2s ease-in-out;
 }
 
 .work__title {
@@ -79,7 +79,7 @@
     background-color: rgba(149, 149, 149, 0.15);
     border-radius: 0.5rem;
     font-size: var(--tiny-font-size);
-    font-weight: var(--font-normal);
+    font-weight: var(--font-medium);
     color: rgba(0, 0, 0, 0.6);
     padding: 0.1rem 0.4rem;
     margin: 0.2rem 0.3rem 0.1rem 0.1rem;
@@ -95,13 +95,13 @@
 }
 
 .highlight {
-    color: purple;
-    font-weight: var(--font-medium);
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: var(--font-semi-bold);
 }
 
 .work__button {
     color: var(--text-color);
-    font-size: var(--small-font-size);
+    font-size: var(--smaller-font-size);
     font-weight: var(--font-medium);
     display: flex;
     align-items: center;
@@ -184,22 +184,34 @@
 }
 
 @media screen and (max-width: 576px) {
+    .work__container {
+        gap: 0.9rem;
+        padding: 0 2rem;
+    }
+
     .skill {
-        padding: 0.2rem 0.7rem;
-        margin: 0.4rem 0.3rem 0rem 0.1rem;
+        font-size: 0.7rem;
+        padding: 0.25rem 0.7rem;
+        margin: 0.4rem 0.1rem 0rem 0.1rem;
     }
 
     .work__descriptions {
         padding: 1rem 0.9rem 1rem 0.9rem;
+        font-size: 0.7rem;
     }
 
     .work__button {
-        padding: 0 0.7rem 1.5rem 0.9rem;
+         padding: 1rem 0.7rem 0.6rem 1rem;
     }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
+    .work__container {
+        gap: 0.9rem;
+        padding: 0 2rem;
+    }
+
     .work__item {
         font-size: var(--small-font-size);
     }
@@ -218,6 +230,6 @@
     }
 
     .work__button {
-        padding: 0 1rem 1.5rem 1rem;
+        padding: 1rem 0.7rem 0.6rem 1rem;
     }
 }

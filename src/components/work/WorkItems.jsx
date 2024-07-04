@@ -12,9 +12,18 @@ const WorkItems = ({ item }) => {
   };
 
   const highlightKeywords = (text) => {
-    const keywords = ['Visual Identity', 'Module Integration', 'UX/UI', 'SEO', 'reader-friendly', 'graphic elements', 'Brand Logo', 'Designed', 'Redesigned', 'Clean', 'Modern', 'user-friendly', 'interface', 'keywords', 'search rankings', 'PNG', 'SVG', 'CSS', 'JSON', 'JavaScript', 'HTML', 'CSS', 'user experience'];  // 需要高亮的关键字列表
+    const keywords = ['Visual Identity', 'Module Integration', 'UX/UI', 'SEO', 'reader-friendly', 'graphic elements', 'Brand Logo', 'Designed', 'Redesigned', 'Clean', 'Modern', 'user-friendly', 'interface', 'keywords', 'search rankings', 'PNG', 'SVG', 'CSS', 'JSON', 'JavaScript', 'HTML', 'CSS', 'user experience','full-stack','React', 'Redux', 'Node.js', 'MongoDB', 'JWT', 'Material UI'];  // Highlight keywords
     const regex = new RegExp(`(${keywords.join('|')})`, 'gi');
-    return text.replace(regex, '<span class="highlight">$1</span>');
+    const highlightedKeywords = new Set();
+  
+    return text.replace(regex, (match) => {
+      if (highlightedKeywords.has(match.toLowerCase())) {
+        return match;
+      } else {
+        highlightedKeywords.add(match.toLowerCase());
+        return `<span class="highlight">${match}</span>`;
+      }
+    });
   };
 
   const handleMouseEnter = (e) => {
