@@ -18,7 +18,7 @@ export const projectsData = [
         staticImage: nestease_s,
         title: "NESTEASE",
         category: ["Web", "App"],
-        skills: ["React", "Redux", "Node.js", "MongoDB", "JWT", "Material UI"],
+        skills: ["React", "Redux", "Node.js", "MongoDB", "JWT", "Material UI","Web&Logo Design"],
         descriptions: "NESTEASE is a full-stack home rentals application using React, Redux, Node.js, MongoDB, JWT, and Material UI. It features user registration, login, property listing, booking, search, wishlist, and advanced state management, showcasing advanced full-stack development techniques.",
         url: "https://viszec.github.io/nestease/",
     },
@@ -60,7 +60,7 @@ export const projectsData = [
         title: "Astra Early Learning",
         category: ["Design", "Web"],
         skills: ["Branding", "UX/UI", "Web design", "Web Dev", "Graphic Design", "Marketing", "Google Ads"],
-        descriptions: "",
+        descriptions: "Astra Early Learning's branding, logo design, and website development showcase a clean and modern approach. The website is built with a user-friendly UX/UI, ensuring seamless navigation and optimal performance on all devices. Key features include strong visual identity elements, effective SEO with targeted keywords, and engaging content. This comprehensive strategy enhances search rankings and user experience, effectively conveying the brand’s message.",
         url: "https://www.pm.astraearlylearning.com.au/",
     },
     {
@@ -80,7 +80,7 @@ export const projectsData = [
         title: "Oak Park Children's Centre",
         category: ["Web"],
         skills: ["UX/UI", "Web Dev", "Wordpress", "PHP", "SEO/Content", "Marketing", "Google Ads"],
-        descriptions: "",
+        descriptions: "Oak Park Children's Centre's branding and website creation embody a bright, playful aesthetic. The site is designed with an intuitive UX/UI, ensuring seamless navigation and optimal functionality across all devices. Key features include a robust visual identity, SEO-enhanced content with targeted keywords, and captivating design. This comprehensive strategy improves search rankings and user experience, effectively conveying the centre’s mission and services.",
         url: "https://oakparkchildrenscentre.com.au/",
     },
 ];

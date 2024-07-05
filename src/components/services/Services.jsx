@@ -50,35 +50,42 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  User Interface Development: Intuitive and visually appealing interfaces are created for an engaging user experience.
+                    User Interface Development: Intuitive and visually appealing
+                    interfaces are created for an engaging user experience.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  Web Page Development: Robust, responsive web pages are built using the latest technologies, ensuring consistency across devices.
+                    Web Page Development: Robust, responsive web pages are built
+                    using the latest technologies, ensuring consistency across
+                    devices.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  UX Element Interactions: Interactive UX elements are designed to enhance usability and provide a user-centric experience.
+                    UX Element Interactions: Interactive UX elements are
+                    designed to enhance usability and provide a user-centric
+                    experience.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  Brand Positioning: Brands are effectively positioned in the digital space with integrated branding elements.
+                    Brand Positioning: Brands are effectively positioned in the
+                    digital space with integrated branding elements.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  Design and Mockups: Detailed mockups are created for a clear vision and iterative feedback before development.
+                    Design and Mockups: Detailed mockups are created for a clear
+                    vision and iterative feedback before development.
                   </p>
                 </li>
               </ul>
@@ -188,34 +195,43 @@ const Services = () => {
 
               <h3 className="services__modal-title">Digital Marketing</h3>
               <p className="services__modal-description">
-              Comprehensive Digital Marketing Strategies | Advanced SEM & SEO Techniques | Effective Social Media Marketing | Optimized Online Advertising Campaigns
+                Comprehensive Digital Marketing Strategies | Advanced SEM & SEO
+                Techniques | Effective Social Media Marketing | Optimized Online
+                Advertising Campaigns
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  Digital Marketing Strategies: Comprehensive strategies are developed and executed for brands, including identifying target audiences and creating marketing content.
+                    Digital Marketing Strategies: Comprehensive strategies are
+                    developed and executed for brands, including identifying
+                    target audiences and creating marketing content.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  SEM & SEO Techniques: Advanced techniques are employed for content optimisation, keyword analysis, and pay-per-click advertising to increase traffic and exposure.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                  Social Media Marketing: Effective marketing on platforms like Facebook and Instagram promotes brands and engages users.
+                    SEM & SEO Techniques: Advanced techniques are employed for
+                    content optimisation, keyword analysis, and pay-per-click
+                    advertising to increase traffic and exposure.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  Online Advertising Campaigns: Google Ads, social media ads, and display ads are managed and optimised for better ROI.
+                    Social Media Marketing: Effective marketing on platforms
+                    like Facebook and Instagram promotes brands and engages
+                    users.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Online Advertising Campaigns: Google Ads, social media ads,
+                    and display ads are managed and optimised for better ROI.
                   </p>
                 </li>
               </ul>

@@ -153,6 +153,16 @@
 }
 
 /*=============== BREAKPOINTS ===============*/
+
+@media screen and (max-width: 1199px) {
+    .contact__card-title {
+        font-size:var(--small-font-size);
+    }
+    .contact__card-data {
+        font-size:var(--smaller-font-size);
+    }
+}
+
 /* For large devices */
 @media screen and (max-width: 992px) {
     .contact__container {
