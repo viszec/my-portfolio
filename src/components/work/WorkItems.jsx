@@ -1,10 +1,8 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./work.css";
 /*import skillsList from "../work/Data.jsx";*/
 
 const WorkItems = ({ item }) => {
-  const timeoutRef = useRef(null);
-
   const handleDemoClick = (event) => {
     event.preventDefault();
     window.open(item.url, "_blank");
@@ -77,26 +75,6 @@ const WorkItems = ({ item }) => {
     card.addEventListener("mouseleave", handleMouseLeave);
   });
 
-  /* const handleMouseEnter = (e) => {
-    const img = e.target;
-    clearTimeout(timeoutRef.current);
-    img.style.opacity = 0;
-    timeoutRef.current = setTimeout(() => {
-      img.src = img.getAttribute("data-gif");
-      img.style.opacity = 1;
-    }, 50);
-  };
-
-  const handleMouseLeave = (e) => {
-    const img = e.target;
-    clearTimeout(timeoutRef.current);
-    img.style.opacity = 0;
-    timeoutRef.current = setTimeout(() => {
-      img.src = img.getAttribute("data-static");
-      img.style.opacity = 1;
-    }, 50);
-  }; */
-
   return (
     <div className="work__card" key={item.id}>
       <div className="work__img-wrapper">
@@ -113,16 +91,7 @@ const WorkItems = ({ item }) => {
           className="work__img gif-img"
         />
       </div>
-      {/* <img
-        src={item.staticImage}
-        data-static={item.staticImage}
-        data-gif={item.gifImage}
 
-        alt=""
-        className="work__img"
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      /> */}
       <h3 className="work__title">{item.title}</h3>
       <div className="work_skills">
         {item.skills &&
