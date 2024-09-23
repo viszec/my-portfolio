@@ -40,6 +40,15 @@ const WorkItems = ({ item }) => {
       "MongoDB",
       "JWT",
       "Material UI",
+     "Next.js",
+     "TypeScript",
+     "React",
+     "Hook Form",
+     "Zod",
+     "Radix UI",
+     "Tailwind CSS",
+     "Chart.js",
+     "API Integration",
     ]; // Highlight keywords
     const regex = new RegExp(`(${keywords.join("|")})`, "gi");
     const highlightedKeywords = new Set();
@@ -120,7 +129,7 @@ const WorkItems = ({ item }) => {
         )}
       </div>
       <a href={item.url} className="work__button" onClick={handleDemoClick}>
-        Live Link <i className="bx bx-right-arrow-alt work__button-icon"></i>
+      <span>Live Link</span><i className="bx bx-right-arrow-alt work__button-icon"></i>
       </a>
     </div>
   );

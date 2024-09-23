@@ -9,6 +9,7 @@ import Work6s from "../../assets/work6s.png";
 import Work6 from "../../assets/work6.gif";
 import nestease_s from "../../assets/nestease_s.png";
 import nestease from "../../assets/nestease.gif";
+import novabank_s from "../../assets/novabank_s.png";
 
 
 export const projectsData = [
@@ -24,6 +25,16 @@ export const projectsData = [
     },
     {
         id: 2,
+        gifImage: novabank_s,
+        staticImage: novabank_s,
+        title: "NOVABANK",
+        category: ["Web", "App"],
+        skills: ["Next.js", "TypeScript", "React Hook Form", "Zod", "Radix UI", "Tailwind CSS", "Chart.js", "API Integration"],
+        descriptions: "Developed an online banking app using Next.js, TypeScript, and Tailwind CSS, featuring real-time transaction displays and robust form validation. Integrated Sentry, Plaid, and Dwolla for performance monitoring, bank connections, and secure fund transfers, showcasing advanced fintech API integration.",
+        url: "https://novabank.vercel.app/"
+    },
+    {
+        id: 3,
         gifImage: Work1,
         staticImage: Work1s,
         title: "Brighton ELC",
@@ -33,7 +44,7 @@ export const projectsData = [
         url: "https://www.brightonelc.com.au/",
     },
     {
-        id: 3,
+        id: 4,
         gifImage: Palettepicker,
         staticImage: Work2s,
         title: "Palette Picker",
@@ -43,7 +54,7 @@ export const projectsData = [
         url: "https://viszec.github.io/palettepicker/",
     },
     {
-        id: 4,
+        id: 5,
         gifImage: Work2,
         staticImage: Work2,
         title: "BELC & B.BELC Handbook",
@@ -54,7 +65,7 @@ export const projectsData = [
         url: "https://drive.google.com/file/d/1Qzd4kPOLg-27Q5PWvGHRFWastRNGlzAH/view?usp=sharing"
     },
     {
-        id: 5,
+        id: 6,
         gifImage: Work3,
         staticImage: Work3,
         title: "Astra Early Learning",
@@ -64,7 +75,7 @@ export const projectsData = [
         url: "https://www.pm.astraearlylearning.com.au/",
     },
     {
-        id: 6,
+        id: 7,
         gifImage: Work4,
         staticImage: Work4,
         title: "Logo Design",
@@ -74,7 +85,7 @@ export const projectsData = [
         url: "https://drive.google.com/file/d/1jLR7BtkqjAyDGzEnu9hRrQ_spjmi8sdQ/view?usp=sharing"
     },
     {
-        id: 7,
+        id: 8,
         gifImage: Work6,
         staticImage: Work6s,
         title: "Oak Park Children's Centre",
